@@ -1,0 +1,27 @@
+form > div {
+    background-color: lightblue;
+    padding: 5px;
+    margin: 5px;
+}
+
+input:not([type=range]), select {
+    padding: 5px 10px;
+    transition: 1s;
+}
+
+input:focus, select:focus {
+    background-color: lightcyan;
+}
+
+input[type=radio]:checked + span {
+    color: #666;
+    font-weight: bold;
+}
+
+button {
+    padding: 5px 2em;
+    transition: 0.75s;
+}
+button:hover {
+    background-color: aqua;
+}
